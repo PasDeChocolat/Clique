@@ -1,8 +1,8 @@
 (defproject videotest "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+  :description "An interactive art installation and experiment, at the Chain of Fire prologue exhibition for the Honolulu Biennial Foundation. http://www.honolulubiennial.org/chain-of-fire"
   :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "The MIT License"
+            :url "http://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [quil "2.2.2"]
                  [opencv/opencv "2.4.10"]
@@ -13,11 +13,6 @@
 
                  ;; required for Overtone
                  [overtone "0.9.1"]
-                 
-                 ;; YAML for SimpleBlobDetector properties
-                 [clj-yaml "0.4.0"]
-                 ;; required by fast-vector
-                 ;; [net.mikera/vectorz-clj "0.26.1"]
                  ]
   :jvm-opts ["-Xmx2G" "-Xms2G"]
   :profiles {:dev {:source-paths ["dev"]}}
